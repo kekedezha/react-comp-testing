@@ -12,7 +12,7 @@
 // AccountSummary.tsx
 import React from "react";
 
-type Account = {
+export type Account = {
     id: string;
     type: "Checking" | "Savings";
     balance: number;
